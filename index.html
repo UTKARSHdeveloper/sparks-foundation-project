@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="loadfun()">
+  <div id="loading">
+    
+  </div>
+    <div class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Sparks</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="customer.html">Customers</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </div>
+    <div class="content1">
+        <div class="content1-left">
+        <h1>Sparks Bank</h1>
+        <p>Most Trusted bank of India</p>
+        <p>Safe and Secure transaction.</p>
+        <form action="customer.html">
+        <button class="btn-7">Get Started</button>
+      </form>
+        <!--<a class="btn-con1 emailbtn1 " href="#">Get Started!</a>--->
+        </div>
+        <div class="content1-right">
+
+        </div>
+    </div>
+    <script>
+      var load=document.getElementById("loading");
+      function loadfun(){
+        load.style.display="none";
+      }
+
+    </script>
+    
+</body>
+</html>
